@@ -8,8 +8,8 @@ The goal is to classify the sentiment (Positive, Neutral, Negative) of a *pre-de
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/your-username/MASC-Hotel.git](https://github.com/your-username/MASC-Hotel.git)
-cd MASC-Hotel
+git clone [https://github.com/quanglap100905/SeqCSG-MASC.git](https://github.com/quanglap100905/SeqCSG-MASC.git)
+cd SeqCSG-MASC
 
 # 2. Install dependencies
 pip install -r requirements.txt
