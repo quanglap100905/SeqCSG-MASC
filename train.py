@@ -9,9 +9,9 @@ def _patched_expand_mask(mask, dtype, tgt_len=None):
 bart_modeling._expand_mask = _patched_expand_mask
 
 from config import Config
-from models.dataloader_extract import HotelExtractDataset
+from models.dataloader import HotelExtractDataset
 from models.model import SentimentClassifier
-from utils.utils_extract import Log, train_epoch, eval_model, EarlyStopping
+from utils.utils import Log, train_epoch, eval_model, EarlyStopping
 
 def main():
     if not os.path.exists(Config.SAVE_DIR): os.makedirs(Config.SAVE_DIR)
