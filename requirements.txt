@@ -1,0 +1,14 @@
+torch>=1.12.0
+torchvision
+transformers==4.26.1
+accelerate==0.24.1
+
+numpy==1.26.4
+pandas
+scikit-learn
+tqdm
+
+Pillow
+
+spacy>=3.0.0
+protobuf==3.20.3
