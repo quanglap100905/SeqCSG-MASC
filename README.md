@@ -8,7 +8,7 @@ The goal is to classify the sentiment (Positive, Neutral, Negative) of a *pre-de
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/quanglap100905/SeqCSG-MASC.git](https://github.com/quanglap100905/SeqCSG-MASC.git)
+git clone https://github.com/quanglap100905/SeqCSG-MASC.git
 cd SeqCSG-MASC
 
 # 2. Install dependencies
